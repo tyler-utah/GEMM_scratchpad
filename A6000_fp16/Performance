@@ -1,0 +1,3 @@
+Size, This GEMM, cublas:
+2048,  .179 ms,  .178 ms
+4096, 1.35  ms,  1.18 ms

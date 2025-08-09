@@ -1,0 +1,11 @@
+To compile, simply run: Make
+
+To run, simply run ./to_run
+
+All parameters to the file are changed in the Makefile. You can change how many iterations the kernel is run for, etc. You can change tuning parameters, etc. You can change the matrix input. Currently only supports square matrixes.
+
+Current tuned values work well for size 2048 (yes, it is too small)
+
+To check the result, uncomment the VALIDATE=1 in the Makefile. ChatGPT 5 wrote an overengineered sampling based checker. Seems to work okay though.
+
+GPU code should mostly be in kernel.h.
